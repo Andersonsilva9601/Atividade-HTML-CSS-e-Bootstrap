@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title> Star - Roupas e acessórios</title>
+  <link rel="icon" type="image/png" href="img/Stars.png" />
+</head>
+
+<body>
+  <header class="container-fluid p-2 bg-light text-center">
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <a href="#"><img src="/img/Stars.svg" width="60"></a>
+        <a class="navbar-brand">Star Roupas e acessórios</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#produtos">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosso time</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nossos produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="a"><i class="bi bi-cart3"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel/Roupas1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Roupas estilosas</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel/Roupas2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Para todos os gostos</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel/Roupas3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Você vai achar o que precisa</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel/Roupas4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Venha conhecer nossa loja</h5>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="card mb-3 p-2 bg-light">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="/img/SobreNós2.jpg" width="200px" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Sobre nós</h5>
+          <p class="card-text">somos uma empresa com mais de 10 anos de mercado, com foco em inovação e em uma
+            experiência inesquecivel para o cliente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container-fluid bg-light text-center p-5">
+    <h2 id="produtos">Nossos produtos</h2><br>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-50">
+          <img src="/img/nossos produtos/compras1.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Kit feminino 1</h5>
+            <h1 class="card-subtitle text-muted">R$ 200,00</h1>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Em até 2x</small>
+          </div>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-50">
+          <img src="/img/nossos produtos/compras2.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Kit feminino 2</h5>
+            <h1 class="card-subtitle text-muted">R$ 150,00</h1>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Em até 2x</small>
+          </div>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-50">
+          <img src="/img/nossos produtos/compras3.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Kit masculino 1</h5>
+            <h1 class="card-subtitle text-muted">R$ 120,00</h1>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Em até 2x</small>
+          </div>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-50">
+          <img src="img/nossos produtos/compras4.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Kit masculino 2</h5>
+            <h1 class="card-subtitle text-muted">R$ 200,00</h1>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Em até 2x</small>
+          </div>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-50">
+          <img src="/img/nossos produtos/compras5.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Kit infantil 1</h5>
+            <h1 class="card-subtitle text-muted">R$ 110,00</h1>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Em até 2x</small>
+          </div>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-50">
+          <img src="/img/nossos produtos/compras6.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-info">
+            <h5 class="card-title">Kit infantil 2</h5>
+            <h1 class="card-subtitle text-muted">R$ 110,00</h1>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Em até 2x</small>
+          </div>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="row p-2 text-center">
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="/img/1.jpg"
+        role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+      </svg>
+      <h2 class="fw-normal">Abel</h2>
+      <p>Designer</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="/img/2.jpg"
+        role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+      </svg>
+      <h2 class="fw-normal">Paloma</h2>
+      <p>Marketing</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="/img/3.jpg"
+        role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+      </svg>
+      <h2 class="fw-normal">Henrique</h2>
+      <p>Desenvolvedor</p> 
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+  <footer class="container-fluid bg-info p-2 text-center">
+    <p>Desenvolvido por Anderson Silva</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto adicionado ao carrinho!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+        <a href="checkout.html" type="button" class="btn btn-success">Finalizar a compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
